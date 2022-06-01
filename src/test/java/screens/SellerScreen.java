@@ -14,6 +14,7 @@ public class SellerScreen extends BaseScreen{
     }
 
 
+
     public String getSellerCity(){
         return sellerCity.getText();
     }
