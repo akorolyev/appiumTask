@@ -1,0 +1,1400 @@
+2022-05-31 17:43:05 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-05-31 17:43:05 DEBUG - Using Log4J2 as the default logging framework
+2022-05-31 17:43:05 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-05-31 17:43:05 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-31 17:43:05 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2fd1731c
+2022-05-31 17:43:05 DEBUG - -Dio.netty.noUnsafe: false
+2022-05-31 17:43:05 DEBUG - Java version: 8
+2022-05-31 17:43:05 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-05-31 17:43:05 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-05-31 17:43:05 DEBUG - java.nio.Buffer.address: available
+2022-05-31 17:43:05 DEBUG - direct buffer constructor: available
+2022-05-31 17:43:05 DEBUG - java.nio.Bits.unaligned: available, true
+2022-05-31 17:43:05 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-31 17:43:05 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-31 17:43:05 DEBUG - sun.misc.Unsafe: available
+2022-05-31 17:43:05 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-05-31 17:43:05 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-31 17:43:05 DEBUG - Platform: Windows
+2022-05-31 17:43:05 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-05-31 17:43:05 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-31 17:43:05 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-05-31 17:43:05 DEBUG - -Dio.netty.noPreferDirect: false
+2022-05-31 17:43:05 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-31 17:43:05 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-31 17:43:05 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-31 17:43:06 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-05-31 17:43:06 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-31 17:43:06 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-05-31 17:43:06 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-05-31 17:43:06 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-31 17:43:06 DEBUG - -Dio.netty.allocator.type: pooled
+2022-05-31 17:43:06 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-31 17:43:06 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-31 17:43:07 DEBUG - -Dio.netty.processId: 15896 (auto-detected)
+2022-05-31 17:43:07 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-05-31 17:43:07 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-05-31 17:43:07 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-05-31 17:43:07 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-05-31 17:43:08 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-05-31 17:43:09 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-05-31 17:43:09 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-05-31 17:43:09 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@9caeb0d
+2022-05-31 17:43:09 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-31 17:43:09 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-05-31 17:43:09 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-05-31 17:43:09 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-05-31 17:43:09 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-05-31 17:44:10 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-31 17:44:12 INFO  - Application on platform 'ANDROID' is ready...
+2022-05-31 17:44:12 INFO  - Closing application
+2022-05-31 18:31:50 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-05-31 18:31:50 DEBUG - Using Log4J2 as the default logging framework
+2022-05-31 18:31:51 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-05-31 18:31:51 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-31 18:31:51 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-05-31 18:31:51 DEBUG - -Dio.netty.noUnsafe: false
+2022-05-31 18:31:51 DEBUG - Java version: 8
+2022-05-31 18:31:51 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-05-31 18:31:51 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-05-31 18:31:51 DEBUG - java.nio.Buffer.address: available
+2022-05-31 18:31:51 DEBUG - direct buffer constructor: available
+2022-05-31 18:31:51 DEBUG - java.nio.Bits.unaligned: available, true
+2022-05-31 18:31:51 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-31 18:31:51 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-31 18:31:51 DEBUG - sun.misc.Unsafe: available
+2022-05-31 18:31:51 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-05-31 18:31:51 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-31 18:31:51 DEBUG - Platform: Windows
+2022-05-31 18:31:51 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-05-31 18:31:51 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-31 18:31:51 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-05-31 18:31:51 DEBUG - -Dio.netty.noPreferDirect: false
+2022-05-31 18:31:51 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-31 18:31:51 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-31 18:31:51 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-31 18:31:51 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-05-31 18:31:51 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-31 18:31:51 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-05-31 18:31:51 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-05-31 18:31:51 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-31 18:31:51 DEBUG - -Dio.netty.allocator.type: pooled
+2022-05-31 18:31:51 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-31 18:31:51 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-31 18:31:52 DEBUG - -Dio.netty.processId: 15016 (auto-detected)
+2022-05-31 18:31:52 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-05-31 18:31:52 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-05-31 18:31:53 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-05-31 18:31:53 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-05-31 18:31:53 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-05-31 18:31:53 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-05-31 18:31:53 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-05-31 18:31:53 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7a4d48d1
+2022-05-31 18:31:53 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-31 18:31:53 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-05-31 18:31:53 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-05-31 18:31:53 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-05-31 18:31:53 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-05-31 18:32:16 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-31 18:32:17 INFO  - Application on platform 'ANDROID' is ready...
+2022-05-31 18:34:51 INFO  - Closing application
+2022-05-31 19:35:45 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-05-31 19:35:45 DEBUG - Using Log4J2 as the default logging framework
+2022-05-31 19:35:45 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-05-31 19:35:45 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-31 19:35:45 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3591009c
+2022-05-31 19:35:46 DEBUG - -Dio.netty.noUnsafe: false
+2022-05-31 19:35:46 DEBUG - Java version: 8
+2022-05-31 19:35:46 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-05-31 19:35:46 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-05-31 19:35:46 DEBUG - java.nio.Buffer.address: available
+2022-05-31 19:35:46 DEBUG - direct buffer constructor: available
+2022-05-31 19:35:46 DEBUG - java.nio.Bits.unaligned: available, true
+2022-05-31 19:35:46 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-31 19:35:46 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-31 19:35:46 DEBUG - sun.misc.Unsafe: available
+2022-05-31 19:35:46 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-05-31 19:35:46 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-31 19:35:46 DEBUG - Platform: Windows
+2022-05-31 19:35:46 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-05-31 19:35:46 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-31 19:35:46 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-05-31 19:35:46 DEBUG - -Dio.netty.noPreferDirect: false
+2022-05-31 19:35:46 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-31 19:35:46 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-31 19:35:46 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-31 19:35:46 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-05-31 19:35:46 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-31 19:35:46 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-05-31 19:35:46 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-05-31 19:35:46 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-31 19:35:46 DEBUG - -Dio.netty.allocator.type: pooled
+2022-05-31 19:35:46 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-31 19:35:46 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-31 19:35:47 DEBUG - -Dio.netty.processId: 17284 (auto-detected)
+2022-05-31 19:35:47 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-05-31 19:35:47 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-05-31 19:35:47 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-05-31 19:35:47 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-05-31 19:35:48 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-05-31 19:35:48 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-05-31 19:35:48 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-05-31 19:35:48 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3c72e3cd
+2022-05-31 19:35:48 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-31 19:35:48 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-05-31 19:35:48 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-05-31 19:35:48 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-05-31 19:35:48 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-05-31 19:36:23 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-31 19:36:25 INFO  - Application on platform 'ANDROID' is ready...
+2022-05-31 19:36:25 INFO  - Label 'City Label' :: Clicking
+2022-05-31 19:36:52 INFO  - Closing application
+2022-06-01 01:15:06 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 01:15:06 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 01:15:06 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 01:15:06 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 01:15:06 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 01:15:06 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 01:15:06 DEBUG - Java version: 8
+2022-06-01 01:15:06 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 01:15:06 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 01:15:06 DEBUG - java.nio.Buffer.address: available
+2022-06-01 01:15:06 DEBUG - direct buffer constructor: available
+2022-06-01 01:15:06 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 01:15:06 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 01:15:06 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 01:15:06 DEBUG - sun.misc.Unsafe: available
+2022-06-01 01:15:06 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 01:15:06 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 01:15:06 DEBUG - Platform: Windows
+2022-06-01 01:15:06 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 01:15:06 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 01:15:06 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 01:15:06 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 01:15:06 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 01:15:07 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 01:15:07 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 01:15:07 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 01:15:07 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 01:15:07 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 01:15:07 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 01:15:07 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 01:15:07 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 01:15:07 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 01:15:07 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 01:15:08 DEBUG - -Dio.netty.processId: 14724 (auto-detected)
+2022-06-01 01:15:08 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 01:15:08 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 01:15:08 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 01:15:08 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 01:15:09 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 01:15:09 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 01:15:09 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 01:15:09 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@eb6d7b6
+2022-06-01 01:15:09 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 01:15:09 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 01:15:09 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 01:15:09 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 01:15:09 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 01:15:29 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 01:15:30 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 01:15:30 INFO  - Label 'City Label' :: Clicking
+2022-06-01 01:15:30 INFO  - Button 'OK' :: Clicking
+2022-06-01 01:17:18 INFO  - Closing application
+2022-06-01 13:16:38 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 13:16:38 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 13:16:38 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 13:16:38 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 13:16:38 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 13:16:38 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 13:16:38 DEBUG - Java version: 8
+2022-06-01 13:16:38 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 13:16:38 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 13:16:38 DEBUG - java.nio.Buffer.address: available
+2022-06-01 13:16:38 DEBUG - direct buffer constructor: available
+2022-06-01 13:16:38 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 13:16:38 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 13:16:38 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 13:16:38 DEBUG - sun.misc.Unsafe: available
+2022-06-01 13:16:38 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 13:16:38 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 13:16:38 DEBUG - Platform: Windows
+2022-06-01 13:16:38 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 13:16:38 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 13:16:38 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 13:16:38 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 13:16:39 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 13:16:39 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 13:16:39 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 13:16:40 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 13:16:40 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 13:16:40 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 13:16:40 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 13:16:40 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 13:16:40 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 13:16:40 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 13:16:40 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 13:16:41 DEBUG - -Dio.netty.processId: 18472 (auto-detected)
+2022-06-01 13:16:41 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 13:16:41 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 13:16:42 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 13:16:42 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 13:16:43 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 13:16:43 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 13:16:43 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 13:16:43 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26b1ed11
+2022-06-01 13:16:43 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 13:16:43 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 13:16:43 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 13:16:43 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 13:16:43 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 13:19:21 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 13:19:23 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 13:19:23 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:19:24 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:19:24 INFO  - Label 'City Label' :: Clicking
+2022-06-01 13:19:24 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:19:25 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:19:25 INFO  - Button 'OK' :: Clicking
+2022-06-01 13:19:27 INFO  - Text Field 'Search field' :: Sending keys 'a'
+2022-06-01 13:19:28 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 13:19:44 DEBUG - Page source:
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="2148">
+  <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2009]" displayed="true">
+    <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2009]" displayed="true">
+      <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,1463]" displayed="true">
+        <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" resource-id="com.zdv.secretcloset:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,1463]" displayed="true">
+          <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,1463]" displayed="true">
+            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,1463]" displayed="true">
+              <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/header" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,381]" displayed="true">
+                <android.view.ViewGroup index="0" package="com.zdv.secretcloset" class="android.view.ViewGroup" text="" resource-id="com.zdv.secretcloset:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,237]" displayed="true">
+                  <android.widget.ImageButton index="0" package="com.zdv.secretcloset" class="android.widget.ImageButton" text="" content-desc="Navigate up" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][154,237]" displayed="true" />
+                  <android.widget.LinearLayout index="1" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[154,83][1080,237]" displayed="true">
+                    <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[154,83][1037,237]" displayed="true">
+                      <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Select city" resource-id="com.zdv.secretcloset:id/tvTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[154,123][451,196]" displayed="true" />
+                      <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Help" resource-id="com.zdv.secretcloset:id/tvAction" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[876,123][1037,196]" displayed="true" />
+                    </android.widget.RelativeLayout>
+                  </android.widget.LinearLayout>
+                </android.view.ViewGroup>
+                <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/searchBar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,237][1080,381]" displayed="true">
+                  <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlToolbarSearch" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[43,248][1037,352]" displayed="true">
+                    <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView7" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,275][129,325]" displayed="true" />
+                    <android.widget.EditText index="1" package="com.zdv.secretcloset" class="android.widget.EditText" text="a" resource-id="com.zdv.secretcloset:id/etSearchTest" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[129,248][1037,352]" displayed="true" hint="Search" />
+                  </android.widget.RelativeLayout>
+                </android.widget.RelativeLayout>
+              </android.widget.RelativeLayout>
+              <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,381][1080,1463]" displayed="true">
+                <android.widget.ListView index="0" package="com.zdv.secretcloset" class="android.widget.ListView" text="" resource-id="com.zdv.secretcloset:id/lvSearchList" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,381][1080,1041]" displayed="true">
+                  <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,381][1080,513]" displayed="true">
+                    <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Abu Dhabi" resource-id="com.zdv.secretcloset:id/tvCityItemName" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[55,410][306,484]" displayed="true" />
+                  </android.widget.RelativeLayout>
+                  <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,513][1080,645]" displayed="true">
+                    <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Athens" resource-id="com.zdv.secretcloset:id/tvCityItemName" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[55,542][226,616]" displayed="true" />
+                  </android.widget.RelativeLayout>
+                  <android.widget.RelativeLayout index="2" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,645][1080,777]" displayed="true">
+                    <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Madrid" resource-id="com.zdv.secretcloset:id/tvCityItemName" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[55,674][227,748]" displayed="true" />
+                  </android.widget.RelativeLayout>
+                  <android.widget.RelativeLayout index="3" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,777][1080,909]" displayed="true">
+                    <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Manchester" resource-id="com.zdv.secretcloset:id/tvCityItemName" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[55,806][345,880]" displayed="true" />
+                  </android.widget.RelativeLayout>
+                  <android.widget.RelativeLayout index="4" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,909][1080,1041]" displayed="true">
+                    <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Manila" resource-id="com.zdv.secretcloset:id/tvCityItemName" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[55,938][219,1012]" displayed="true" />
+                  </android.widget.RelativeLayout>
+                </android.widget.ListView>
+              </android.widget.RelativeLayout>
+            </android.widget.RelativeLayout>
+          </android.widget.FrameLayout>
+        </android.widget.LinearLayout>
+      </android.widget.FrameLayout>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>
+org.openqa.selenium.NoSuchElementException: No elements with locator 'By.id: com.zdv.secretcloset:id/tvToolbarCity' were found in DISPLAYED state: Expected condition failed:  (tried for 15 second(s) with 300 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'WIN-P2JVAVQ4HBR', ip: '172.27.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\artem\IdeaProjects..., appium:appPackage: com.zdv.secretcloset, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\artem\IdeaProjects..., automationName: UiAutomator2, deviceName: pixel_5, platformName: android, platformVersion: 10, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: dcda05f4-1c7e-4436-aa5d-28ac86a6e677
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'WIN-P2JVAVQ4HBR', ip: '172.27.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: driver.version: unknown
+	at aquality.selenium.core.elements.ElementFinder.handleTimeoutException(ElementFinder.java:95) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.ElementFinder.findElements(ElementFinder.java:46) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElementFinder.findElement(IElementFinder.java:54) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.ElementCacheHandler.getElement(ElementCacheHandler.java:65) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElementCacheHandler.getElement(IElementCacheHandler.java:65) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.getElement(Element.java:176) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElement.getElement(IElement.java:44) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.lambda$getText$1(Element.java:204) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.utilities.ActionRetrier.doWithRetry(ActionRetrier.java:46) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.utilities.ElementActionRetrier.doWithRetry(ElementActionRetrier.java:35) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.doWithRetry(Element.java:264) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.getText(Element.java:204) ~[aquality-selenium-core-2.0.2.jar:?]
+	at screens.StartScreen.returnNameOfCity(StartScreen.java:22) ~[test-classes/:?]
+	at tests.AndroidTest.testApp(AndroidTest.java:30) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.5.jar:7.5]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_302]
+	at org.testng.TestRunner.privateRun(TestRunner.java:808) [testng-7.5.jar:7.5]
+	at org.testng.TestRunner.run(TestRunner.java:603) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuites(TestNG.java:1092) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.run(TestNG.java:1060) [testng-7.5.jar:7.5]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2022-06-01 13:19:44 INFO  - Closing application
+2022-06-01 13:21:47 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 13:21:48 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 13:21:48 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 13:21:48 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 13:21:48 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 13:21:48 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 13:21:48 DEBUG - Java version: 8
+2022-06-01 13:21:48 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 13:21:48 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 13:21:48 DEBUG - java.nio.Buffer.address: available
+2022-06-01 13:21:48 DEBUG - direct buffer constructor: available
+2022-06-01 13:21:48 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 13:21:48 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 13:21:48 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 13:21:48 DEBUG - sun.misc.Unsafe: available
+2022-06-01 13:21:48 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 13:21:48 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 13:21:48 DEBUG - Platform: Windows
+2022-06-01 13:21:48 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 13:21:48 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 13:21:48 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 13:21:48 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 13:21:48 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 13:21:48 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 13:21:48 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 13:21:48 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 13:21:48 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 13:21:48 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 13:21:48 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 13:21:48 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 13:21:48 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 13:21:48 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 13:21:48 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 13:21:49 DEBUG - -Dio.netty.processId: 4788 (auto-detected)
+2022-06-01 13:21:49 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 13:21:49 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 13:21:50 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 13:21:50 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 13:21:50 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 13:21:51 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 13:21:51 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 13:21:51 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26f6285b
+2022-06-01 13:21:51 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 13:21:51 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 13:21:51 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 13:21:51 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 13:21:51 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 13:22:17 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 13:22:18 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 13:22:19 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:22:19 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:22:19 INFO  - Label 'City Label' :: Clicking
+2022-06-01 13:22:19 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:22:19 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 13:22:19 INFO  - Button 'OK' :: Clicking
+2022-06-01 13:22:49 INFO  - Text Field 'Search field' :: Sending keys 'a'
+2022-06-01 13:24:48 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 17:09:09 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 17:09:09 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 17:09:09 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 17:09:09 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 17:09:09 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3591009c
+2022-06-01 17:09:09 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 17:09:09 DEBUG - Java version: 8
+2022-06-01 17:09:09 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 17:09:09 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 17:09:09 DEBUG - java.nio.Buffer.address: available
+2022-06-01 17:09:09 DEBUG - direct buffer constructor: available
+2022-06-01 17:09:09 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 17:09:09 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 17:09:09 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 17:09:09 DEBUG - sun.misc.Unsafe: available
+2022-06-01 17:09:09 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 17:09:09 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 17:09:09 DEBUG - Platform: Windows
+2022-06-01 17:09:09 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 17:09:09 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 17:09:09 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 17:09:09 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 17:09:09 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 17:09:09 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 17:09:09 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 17:09:09 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 17:09:09 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 17:09:09 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 17:09:10 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 17:09:10 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 17:09:10 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 17:09:10 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 17:09:10 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 17:09:11 DEBUG - -Dio.netty.processId: 16728 (auto-detected)
+2022-06-01 17:09:11 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 17:09:11 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 17:09:12 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 17:09:12 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 17:09:13 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 17:09:13 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 17:09:13 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 17:09:13 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10c032b3
+2022-06-01 17:09:13 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 17:09:13 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 17:09:13 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 17:09:13 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 17:09:13 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 17:09:55 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 17:09:56 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 17:09:56 INFO  - Step 1: Click on city label
+2022-06-01 17:09:57 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:09:57 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:09:57 INFO  - Label 'City Label' :: Clicking
+2022-06-01 17:09:58 INFO  - Step 2: Click OK button on alert
+2022-06-01 17:09:58 INFO  - Button 'OK' :: Clicking
+2022-06-01 17:10:02 INFO  - Step 3: Type 'Athens' in search field
+2022-06-01 17:10:11 INFO  - Text Field 'Search field' :: Sending keys 'Athens'
+2022-06-01 17:10:23 INFO  - Step 4: Click on search result 'Athens'
+2022-06-01 17:10:27 INFO  - Label 'Name of city' :: Clicking
+2022-06-01 17:10:39 INFO  - Step 5: Check 'Athens' is selected as region
+2022-06-01 17:10:42 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 17:10:42 INFO  - Label 'City Label' :: Element's text: [Abu Dhabi]
+2022-06-01 17:10:49 INFO  - Closing application
+2022-06-01 17:25:56 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 17:25:56 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 17:25:56 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 17:25:56 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 17:25:56 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3591009c
+2022-06-01 17:25:57 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 17:25:57 DEBUG - Java version: 8
+2022-06-01 17:25:57 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 17:25:57 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 17:25:57 DEBUG - java.nio.Buffer.address: available
+2022-06-01 17:25:57 DEBUG - direct buffer constructor: available
+2022-06-01 17:25:57 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 17:25:57 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 17:25:57 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 17:25:57 DEBUG - sun.misc.Unsafe: available
+2022-06-01 17:25:57 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 17:25:57 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 17:25:57 DEBUG - Platform: Windows
+2022-06-01 17:25:57 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 17:25:57 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 17:25:57 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 17:25:57 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 17:25:57 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 17:25:57 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 17:25:57 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 17:25:57 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 17:25:57 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 17:25:57 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 17:25:57 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 17:25:57 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 17:25:57 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 17:25:57 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 17:25:57 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 17:25:58 DEBUG - -Dio.netty.processId: 11960 (auto-detected)
+2022-06-01 17:25:58 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 17:25:58 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 17:25:58 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 17:25:58 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 17:25:59 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 17:25:59 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 17:25:59 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 17:25:59 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@e765304
+2022-06-01 17:25:59 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 17:25:59 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 17:25:59 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 17:25:59 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 17:25:59 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 17:26:32 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 17:26:32 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 17:26:33 INFO  - Step 1: Click on city label
+2022-06-01 17:26:33 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:26:33 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:26:33 INFO  - Label 'City Label' :: Clicking
+2022-06-01 17:26:34 INFO  - Step 2: Click OK button on alert
+2022-06-01 17:26:34 INFO  - Button 'OK' :: Clicking
+2022-06-01 17:26:36 INFO  - Step 3: Type 'Athens' in search field
+2022-06-01 17:26:49 INFO  - Text Field 'Search field' :: Clearing
+2022-06-01 17:26:49 INFO  - Text Field 'Search field' :: Typing 'Athens'
+2022-06-01 17:26:55 INFO  - Step 4: Click on search result 'Athens'
+2022-06-01 17:27:07 INFO  - Label 'Name of city' :: Clicking
+2022-06-01 17:27:20 INFO  - Step 5: Check 'Athens' is selected as region
+2022-06-01 17:27:48 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 17:27:49 INFO  - Label 'City Label' :: Element's text: [Athens]
+2022-06-01 17:27:56 INFO  - Label 'Origin price' :: Getting text from element
+2022-06-01 17:27:57 INFO  - Label 'Origin price' :: Element's text: [250 EUR]
+2022-06-01 17:27:58 INFO  - Label 'Discount' :: Getting text from element
+2022-06-01 17:27:58 INFO  - Label 'Discount' :: Element's text: [-20%]
+2022-06-01 17:27:59 INFO  - Label 'New price' :: Getting text from element
+2022-06-01 17:27:59 INFO  - Label 'New price' :: Element's text: [200 EUR]
+2022-06-01 17:28:05 INFO  - Step 6: Select first item with discount
+2022-06-01 17:28:19 INFO  - Step 7: Check that selected item is displaying
+2022-06-01 17:28:21 INFO  - Label 'Selected Item' :: Getting attribute 'displayed'
+2022-06-01 17:40:49 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 17:40:49 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 17:40:49 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 17:40:49 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 17:40:49 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 17:40:49 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 17:40:49 DEBUG - Java version: 8
+2022-06-01 17:40:49 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 17:40:49 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 17:40:49 DEBUG - java.nio.Buffer.address: available
+2022-06-01 17:40:49 DEBUG - direct buffer constructor: available
+2022-06-01 17:40:49 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 17:40:49 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 17:40:49 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 17:40:49 DEBUG - sun.misc.Unsafe: available
+2022-06-01 17:40:49 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 17:40:49 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 17:40:49 DEBUG - Platform: Windows
+2022-06-01 17:40:49 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 17:40:49 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 17:40:49 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 17:40:49 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 17:40:49 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 17:40:49 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 17:40:49 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 17:40:50 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 17:40:50 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 17:40:50 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 17:40:50 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 17:40:50 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 17:40:50 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 17:40:50 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 17:40:50 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 17:40:50 DEBUG - -Dio.netty.processId: 4716 (auto-detected)
+2022-06-01 17:40:50 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 17:40:50 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 17:40:51 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 17:40:51 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 17:40:52 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 17:40:52 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 17:40:52 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 17:40:52 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2223246
+2022-06-01 17:40:52 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 17:40:52 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 17:40:52 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 17:40:52 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 17:40:52 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 17:41:14 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 17:41:15 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 17:41:15 INFO  - Step 1: Click on city label
+2022-06-01 17:41:15 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:41:15 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:41:15 INFO  - Label 'City Label' :: Clicking
+2022-06-01 17:41:17 INFO  - Step 2: Click OK button on alert
+2022-06-01 17:41:17 INFO  - Button 'OK' :: Clicking
+2022-06-01 17:41:21 INFO  - Step 3: Type 'Athens' in search field
+2022-06-01 17:41:21 INFO  - Text Field 'Search field' :: Clearing
+2022-06-01 17:41:21 INFO  - Text Field 'Search field' :: Typing 'Athens'
+2022-06-01 17:41:24 INFO  - Step 4: Click on search result 'Athens'
+2022-06-01 17:41:24 INFO  - Label 'Name of city' :: Clicking
+2022-06-01 17:41:27 INFO  - Step 5: Check 'Athens' is selected as region
+2022-06-01 17:41:27 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 17:41:27 INFO  - Label 'City Label' :: Element's text: [New York]
+2022-06-01 17:41:27 INFO  - Closing application
+2022-06-01 17:45:14 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 17:45:14 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 17:45:14 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 17:45:14 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 17:45:14 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 17:45:14 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 17:45:14 DEBUG - Java version: 8
+2022-06-01 17:45:14 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 17:45:14 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 17:45:14 DEBUG - java.nio.Buffer.address: available
+2022-06-01 17:45:14 DEBUG - direct buffer constructor: available
+2022-06-01 17:45:14 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 17:45:14 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 17:45:14 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 17:45:14 DEBUG - sun.misc.Unsafe: available
+2022-06-01 17:45:14 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 17:45:14 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 17:45:14 DEBUG - Platform: Windows
+2022-06-01 17:45:14 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 17:45:14 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 17:45:14 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 17:45:14 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 17:45:14 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 17:45:14 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 17:45:14 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 17:45:14 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 17:45:14 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 17:45:14 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 17:45:14 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 17:45:14 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 17:45:14 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 17:45:14 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 17:45:14 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 17:45:15 DEBUG - -Dio.netty.processId: 18740 (auto-detected)
+2022-06-01 17:45:15 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 17:45:15 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 17:45:16 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 17:45:16 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 17:45:16 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 17:45:16 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 17:45:16 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 17:45:16 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3205f020
+2022-06-01 17:45:16 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 17:45:16 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 17:45:16 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 17:45:16 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 17:45:16 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 17:45:44 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 17:45:45 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 17:45:45 INFO  - Step 1: Click on city label
+2022-06-01 17:45:46 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:45:46 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:45:46 INFO  - Label 'City Label' :: Clicking
+2022-06-01 17:45:48 INFO  - Step 2: Click OK button on alert
+2022-06-01 17:45:48 INFO  - Button 'OK' :: Clicking
+2022-06-01 17:45:52 INFO  - Step 3: Type 'Athens' in search field
+2022-06-01 17:45:52 INFO  - Text Field 'Search field' :: Clearing
+2022-06-01 17:45:52 INFO  - Text Field 'Search field' :: Typing 'Athens'
+2022-06-01 17:45:55 INFO  - Step 4: Click on search result 'Athens'
+2022-06-01 17:45:55 INFO  - Label 'Name of city' :: Clicking
+2022-06-01 17:45:57 INFO  - Step 5: Check 'Athens' is selected as region
+2022-06-01 17:45:59 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 17:46:02 INFO  - Label 'City Label' :: Element's text: [Athens]
+2022-06-01 17:46:02 INFO  - Label 'Origin price' :: Getting text from element
+2022-06-01 17:46:04 INFO  - Label 'Origin price' :: Element's text: [250 EUR]
+2022-06-01 17:46:04 INFO  - Label 'Discount' :: Getting text from element
+2022-06-01 17:46:05 INFO  - Label 'Discount' :: Element's text: [-20%]
+2022-06-01 17:46:05 INFO  - Label 'New price' :: Getting text from element
+2022-06-01 17:46:06 INFO  - Label 'New price' :: Element's text: [200 EUR]
+2022-06-01 17:46:06 INFO  - Step 6: Select first item with discount
+2022-06-01 17:46:21 INFO  - Step 7: Check that selected item is displaying
+2022-06-01 17:46:27 INFO  - Label 'Selected Item' :: Getting attribute 'displayed'
+2022-06-01 17:46:48 DEBUG - Page source:
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="2148">
+  <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2009]" displayed="true">
+    <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2009]" displayed="true">
+      <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+        <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" resource-id="com.zdv.secretcloset:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+          <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+            <android.support.v4.widget.DrawerLayout index="0" package="com.zdv.secretcloset" class="android.support.v4.widget.DrawerLayout" text="" resource-id="com.zdv.secretcloset:id/drawer_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+              <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+                <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+                  <android.view.ViewGroup index="0" package="com.zdv.secretcloset" class="android.view.ViewGroup" text="" resource-id="com.zdv.secretcloset:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,373]" displayed="true">
+                    <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[44,83][1080,373]" displayed="true">
+                      <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[44,83][1051,237]" displayed="true">
+                        <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlMenuButton" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[44,92][180,228]" displayed="true">
+                          <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView13" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[44,117][130,203]" displayed="true" />
+                        </android.widget.RelativeLayout>
+                        <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="SecretCloset" resource-id="com.zdv.secretcloset:id/tvTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[180,121][574,198]" displayed="true" />
+                        <android.widget.TextView index="2" package="com.zdv.secretcloset" class="android.widget.TextView" text="Athens" resource-id="com.zdv.secretcloset:id/tvToolbarCity" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[870,121][1051,198]" displayed="true" />
+                      </android.widget.RelativeLayout>
+                      <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[44,237][1051,373]" displayed="true">
+                        <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlToolbarSearch" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[44,241][1051,341]" displayed="true">
+                          <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView7" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[80,266][130,316]" displayed="true" />
+                          <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Search brands" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[130,241][1051,341]" displayed="true" hint="Search brands" />
+                        </android.widget.RelativeLayout>
+                      </android.widget.RelativeLayout>
+                    </android.widget.LinearLayout>
+                  </android.view.ViewGroup>
+                  <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,373][1080,2009]" displayed="true">
+                    <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlTop" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,373][1080,1045]" displayed="true">
+                      <android.support.v7.widget.RecyclerView index="0" package="com.zdv.secretcloset" class="android.support.v7.widget.RecyclerView" text="" resource-id="com.zdv.secretcloset:id/recycle" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,373][1080,1045]" displayed="true">
+                        <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,373][536,1045]" displayed="true">
+                          <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlBanner" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[3,376][533,1042]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/relativeLayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[3,376][533,448]" displayed="true">
+                              <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="CHRISTIAN LOUBOUTIN" resource-id="com.zdv.secretcloset:id/tvBrand" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[76,387][460,436]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                            <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlPic" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[46,448][489,891]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/ivProductPic" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[46,448][489,891]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                            <android.widget.RelativeLayout index="2" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/relativeLayout2" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[3,891][533,1042]" displayed="true">
+                              <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/price" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[134,902][401,962]" displayed="true">
+                                <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="250 EUR" resource-id="com.zdv.secretcloset:id/tvSumm" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[134,905][281,958]" displayed="true" />
+                                <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="-20%" resource-id="com.zdv.secretcloset:id/tvDiscount" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[281,905][401,958]" displayed="true" />
+                              </android.widget.RelativeLayout>
+                              <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,962][368,1031]" displayed="true">
+                                <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="200 EUR" resource-id="com.zdv.secretcloset:id/tvPrice" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,962][368,1031]" displayed="true" />
+                              </android.widget.RelativeLayout>
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                        </android.widget.RelativeLayout>
+                        <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[536,373][1072,1045]" displayed="true">
+                          <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlBanner" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[539,376][1069,1042]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/relativeLayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[539,376][1069,448]" displayed="true">
+                              <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="MARC BY MARC JACOBS" resource-id="com.zdv.secretcloset:id/tvBrand" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[603,387][1005,436]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                            <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlPic" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[582,448][1025,891]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/ivProductPic" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[582,448][1025,891]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                            <android.widget.RelativeLayout index="2" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/relativeLayout2" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[539,891][1069,1042]" displayed="true">
+                              <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/price" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[669,902][939,962]" displayed="true">
+                                <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="285 USD" resource-id="com.zdv.secretcloset:id/tvSumm" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[669,905][819,958]" displayed="true" />
+                                <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="-77%" resource-id="com.zdv.secretcloset:id/tvDiscount" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[819,905][939,958]" displayed="true" />
+                              </android.widget.RelativeLayout>
+                              <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[716,962][891,1031]" displayed="true">
+                                <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="65 USD" resource-id="com.zdv.secretcloset:id/tvPrice" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[716,962][891,1031]" displayed="true" />
+                              </android.widget.RelativeLayout>
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                        </android.widget.RelativeLayout>
+                        <android.widget.RelativeLayout index="2" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[1072,373][1080,1045]" displayed="true">
+                          <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlBanner" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[1075,376][1080,1042]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/relativeLayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[1075,376][1080,448]" displayed="true" />
+                            <android.widget.RelativeLayout index="2" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/relativeLayout2" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[1075,891][1080,1042]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                        </android.widget.RelativeLayout>
+                      </android.support.v7.widget.RecyclerView>
+                    </android.widget.RelativeLayout>
+                    <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1045][1080,2009]" displayed="true">
+                      <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlCategories" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[4,1045][1076,2005]" displayed="true">
+                        <android.view.ViewGroup index="0" package="com.zdv.secretcloset" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[40,1045][1040,2005]" displayed="true">
+                          <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[108,1160][305,1410]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlCategory1" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[108,1160][305,1410]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[108,1160][305,1357]" displayed="true" />
+                              <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Clothes" resource-id="com.zdv.secretcloset:id/textView13" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[141,1357][272,1410]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[442,1160][639,1410]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlCategory2" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[442,1160][639,1410]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView2" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[442,1160][639,1357]" displayed="true" />
+                              <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Shoes" resource-id="com.zdv.secretcloset:id/textView14" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[487,1357][594,1410]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="2" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[775,1160][972,1410]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlCategory3" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[775,1160][972,1410]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView3" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[775,1160][972,1357]" displayed="true" />
+                              <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Bags" resource-id="com.zdv.secretcloset:id/textView15" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[830,1357][917,1410]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="3" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[101,1640][312,1890]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlCategory4" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[101,1640][312,1890]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView4" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[108,1640][305,1837]" displayed="true" />
+                              <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Accessories" resource-id="com.zdv.secretcloset:id/textView16" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[101,1837][312,1890]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="4" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[438,1640][642,1890]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlCategory5" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[438,1640][642,1890]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView5" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[441,1640][638,1837]" displayed="true" />
+                              <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Baby &amp; Kids" resource-id="com.zdv.secretcloset:id/textView17" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[438,1837][642,1890]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="5" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[775,1640][972,1890]" displayed="true">
+                            <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/rlCategory6" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[775,1640][972,1890]" displayed="true">
+                              <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/imageView6" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[775,1640][972,1837]" displayed="true" />
+                              <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Special" resource-id="com.zdv.secretcloset:id/textView18" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[811,1837][936,1890]" displayed="true" />
+                            </android.widget.RelativeLayout>
+                          </android.widget.RelativeLayout>
+                        </android.view.ViewGroup>
+                      </android.widget.RelativeLayout>
+                    </android.widget.RelativeLayout>
+                  </android.widget.RelativeLayout>
+                </android.widget.RelativeLayout>
+              </android.widget.FrameLayout>
+            </android.support.v4.widget.DrawerLayout>
+          </android.widget.FrameLayout>
+        </android.widget.LinearLayout>
+      </android.widget.FrameLayout>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>
+org.openqa.selenium.NoSuchElementException: No elements with locator 'By.id: com.zdv.secretcloset:id/tvItemBrand' were found in DISPLAYED state: Expected condition failed:  (tried for 15 second(s) with 300 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'WIN-P2JVAVQ4HBR', ip: '172.27.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\artem\IdeaProjects..., appium:appPackage: com.zdv.secretcloset, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\artem\IdeaProjects..., automationName: UiAutomator2, deviceName: pixel_5, platformName: android, platformVersion: 10, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 944411be-9ce3-4796-a061-6d8f59712097
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'WIN-P2JVAVQ4HBR', ip: '172.27.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: driver.version: unknown
+	at aquality.selenium.core.elements.ElementFinder.handleTimeoutException(ElementFinder.java:95) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.ElementFinder.findElements(ElementFinder.java:46) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElementFinder.findElement(IElementFinder.java:54) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.ElementCacheHandler.getElement(ElementCacheHandler.java:65) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElementCacheHandler.getElement(IElementCacheHandler.java:65) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.getElement(Element.java:176) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElement.getElement(IElement.java:44) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.lambda$getAttribute$2(Element.java:213) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.utilities.ActionRetrier.doWithRetry(ActionRetrier.java:46) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.utilities.ElementActionRetrier.doWithRetry(ElementActionRetrier.java:35) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.doWithRetry(Element.java:264) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.getAttribute(Element.java:213) ~[aquality-selenium-core-2.0.2.jar:?]
+	at screens.ItemScreen.isDisplayedItem(ItemScreen.java:23) ~[test-classes/:?]
+	at tests.AndroidTest.testApp(AndroidTest.java:54) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.5.jar:7.5]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_302]
+	at org.testng.TestRunner.privateRun(TestRunner.java:808) [testng-7.5.jar:7.5]
+	at org.testng.TestRunner.run(TestRunner.java:603) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuites(TestNG.java:1092) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.run(TestNG.java:1060) [testng-7.5.jar:7.5]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2022-06-01 17:46:57 INFO  - Closing application
+2022-06-01 17:47:53 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 17:47:53 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 17:47:53 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 17:47:53 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 17:47:53 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 17:47:53 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 17:47:53 DEBUG - Java version: 8
+2022-06-01 17:47:53 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 17:47:53 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 17:47:53 DEBUG - java.nio.Buffer.address: available
+2022-06-01 17:47:53 DEBUG - direct buffer constructor: available
+2022-06-01 17:47:53 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 17:47:53 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 17:47:53 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 17:47:53 DEBUG - sun.misc.Unsafe: available
+2022-06-01 17:47:53 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 17:47:53 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 17:47:53 DEBUG - Platform: Windows
+2022-06-01 17:47:53 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 17:47:53 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 17:47:53 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 17:47:53 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 17:47:53 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 17:47:54 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 17:47:54 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 17:47:54 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 17:47:54 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 17:47:54 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 17:47:54 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 17:47:54 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 17:47:54 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 17:47:54 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 17:47:54 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 17:47:55 DEBUG - -Dio.netty.processId: 18200 (auto-detected)
+2022-06-01 17:47:55 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 17:47:55 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 17:47:56 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 17:47:56 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 17:47:56 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 17:47:56 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 17:47:56 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 17:47:56 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1cbfb6ef
+2022-06-01 17:47:56 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 17:47:56 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 17:47:56 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 17:47:56 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 17:47:56 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 17:48:23 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 17:48:24 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 17:48:24 INFO  - Step 1: Click on city label
+2022-06-01 17:48:24 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:48:24 DEBUG - No elements with locator 'By.className: android.widget.TextView' were found in DISPLAYED state
+2022-06-01 17:48:24 INFO  - Label 'City Label' :: Clicking
+2022-06-01 17:48:25 INFO  - Step 2: Click OK button on alert
+2022-06-01 17:48:25 INFO  - Button 'OK' :: Clicking
+2022-06-01 17:48:29 INFO  - Step 3: Type 'Athens' in search field
+2022-06-01 17:48:29 INFO  - Text Field 'Search field' :: Clearing
+2022-06-01 17:48:29 INFO  - Text Field 'Search field' :: Typing 'Athens'
+2022-06-01 17:48:31 INFO  - Step 4: Click on search result 'Athens'
+2022-06-01 17:48:31 INFO  - Label 'Name of city' :: Clicking
+2022-06-01 17:48:34 INFO  - Step 5: Check 'Athens' is selected as region
+2022-06-01 17:48:34 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 17:48:36 INFO  - Label 'City Label' :: Element's text: [Athens]
+2022-06-01 17:48:36 INFO  - Label 'Origin price' :: Getting text from element
+2022-06-01 17:48:36 INFO  - Label 'Origin price' :: Element's text: [250 EUR]
+2022-06-01 17:48:36 INFO  - Label 'Discount' :: Getting text from element
+2022-06-01 17:48:36 INFO  - Label 'Discount' :: Element's text: [-20%]
+2022-06-01 17:48:36 INFO  - Label 'New price' :: Getting text from element
+2022-06-01 17:48:36 INFO  - Label 'New price' :: Element's text: [200 EUR]
+2022-06-01 17:48:36 INFO  - Step 6: Select first item with discount
+2022-06-01 17:50:07 INFO  - Step 7: Check that selected item is displaying
+2022-06-01 17:50:07 INFO  - Label 'Selected Item' :: Getting attribute 'displayed'
+2022-06-01 17:56:01 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 17:56:01 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 17:56:01 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 17:56:01 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 17:56:01 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 17:56:01 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 17:56:01 DEBUG - Java version: 8
+2022-06-01 17:56:01 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 17:56:01 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 17:56:01 DEBUG - java.nio.Buffer.address: available
+2022-06-01 17:56:01 DEBUG - direct buffer constructor: available
+2022-06-01 17:56:01 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 17:56:01 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 17:56:01 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 17:56:01 DEBUG - sun.misc.Unsafe: available
+2022-06-01 17:56:01 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 17:56:01 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 17:56:01 DEBUG - Platform: Windows
+2022-06-01 17:56:01 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 17:56:01 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 17:56:01 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 17:56:01 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 17:56:01 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 17:56:01 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 17:56:01 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 17:56:02 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 17:56:02 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 17:56:02 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 17:56:02 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 17:56:02 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 17:56:02 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 17:56:02 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 17:56:02 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 17:56:03 DEBUG - -Dio.netty.processId: 13076 (auto-detected)
+2022-06-01 17:56:03 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 17:56:03 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 17:56:04 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 17:56:04 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 17:56:05 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 17:56:05 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 17:56:05 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 17:56:05 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26f6285b
+2022-06-01 17:56:05 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 17:56:05 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 17:56:05 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 17:56:05 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 17:56:05 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 17:56:47 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 17:56:48 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 17:56:48 INFO  - Step 1: Click on city label
+2022-06-01 17:56:48 INFO  - Label 'City Label' :: Clicking
+2022-06-01 17:56:49 INFO  - Step 2: Click OK button on alert
+2022-06-01 17:56:49 INFO  - Button 'OK' :: Clicking
+2022-06-01 17:56:51 INFO  - Step 3: Type 'Athens' in search field
+2022-06-01 17:56:51 INFO  - Text Field 'Search field' :: Clearing
+2022-06-01 17:56:51 INFO  - Text Field 'Search field' :: Typing 'Athens'
+2022-06-01 17:56:54 INFO  - Step 4: Click on search result 'Athens'
+2022-06-01 17:56:54 INFO  - Label 'Name of city' :: Clicking
+2022-06-01 17:56:57 INFO  - Step 5: Check 'Athens' is selected as region
+2022-06-01 17:56:57 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 17:56:59 INFO  - Label 'City Label' :: Element's text: [Athens]
+2022-06-01 17:56:59 INFO  - Label 'Origin price' :: Getting text from element
+2022-06-01 17:56:59 INFO  - Label 'Origin price' :: Element's text: [250 EUR]
+2022-06-01 17:56:59 INFO  - Label 'Discount' :: Getting text from element
+2022-06-01 17:56:59 INFO  - Label 'Discount' :: Element's text: [-20%]
+2022-06-01 17:56:59 INFO  - Label 'New price' :: Getting text from element
+2022-06-01 17:56:59 INFO  - Label 'New price' :: Element's text: [200 EUR]
+2022-06-01 17:56:59 INFO  - Step 6: Select first item with discount
+2022-06-01 17:57:08 INFO  - Label 'First product with discount' :: Clicking
+2022-06-01 17:57:17 INFO  - Step 7: Check that selected item is displaying
+2022-06-01 17:57:28 INFO  - Label 'Selected Item' :: Getting attribute 'displayed'
+2022-06-01 17:57:30 INFO  - Label 'Selected Item' :: Value of attribute 'displayed': [true]
+2022-06-01 17:57:34 INFO  - Step 8: Check that old price, discount and price with discount are correct
+2022-06-01 17:57:36 INFO  - Label 'Price before discount' :: Getting text from element
+2022-06-01 17:57:36 INFO  - Label 'Price before discount' :: Element's text: [250 EUR]
+2022-06-01 17:57:37 INFO  - Label 'Discount' :: Getting text from element
+2022-06-01 17:57:37 INFO  - Label 'Discount' :: Element's text: [-20%]
+2022-06-01 17:57:38 INFO  - Label 'Price after discount' :: Getting text from element
+2022-06-01 17:57:38 INFO  - Label 'Price after discount' :: Element's text: [200 EUR]
+2022-06-01 17:57:43 INFO  - Step 9: Click on seller
+2022-06-01 17:57:57 INFO  - Label 'Seller's name' :: Getting text from element
+2022-06-01 17:57:58 INFO  - Label 'Seller's name' :: Element's text: [anetta_stev]
+2022-06-01 17:58:00 INFO  - Label 'Seller's city' :: Getting text from element
+2022-06-01 17:58:00 INFO  - Label 'Seller's city' :: Element's text: [Athens]
+2022-06-01 17:58:03 INFO  - Label 'Seller's info' :: Clicking
+2022-06-01 17:58:09 INFO  - Step 10: Check that seller information is correct (name, city)
+2022-06-01 17:58:11 INFO  - Label 'Seller's name' :: Getting text from element
+2022-06-01 17:58:32 DEBUG - Page source:
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="2148">
+  <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2009]" displayed="true">
+    <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,2009]" displayed="true">
+      <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+        <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" resource-id="com.zdv.secretcloset:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+          <android.widget.FrameLayout index="0" package="com.zdv.secretcloset" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+            <android.support.v4.widget.DrawerLayout index="0" package="com.zdv.secretcloset" class="android.support.v4.widget.DrawerLayout" text="" resource-id="com.zdv.secretcloset:id/drawer_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+              <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,2009]" displayed="true">
+                <android.view.ViewGroup index="0" package="com.zdv.secretcloset" class="android.view.ViewGroup" text="" resource-id="com.zdv.secretcloset:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][1080,237]" displayed="true">
+                  <android.widget.ImageButton index="0" package="com.zdv.secretcloset" class="android.widget.ImageButton" text="" content-desc="Navigate up" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,83][154,237]" displayed="true" />
+                  <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="anetta_stev" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[165,123][450,197]" displayed="true" />
+                </android.view.ViewGroup>
+                <android.widget.ListView index="1" package="com.zdv.secretcloset" class="android.widget.ListView" text="" resource-id="com.zdv.secretcloset:id/lvSellerItems" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,237][1080,2009]" displayed="true">
+                  <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,237][1080,787]" displayed="true">
+                    <android.widget.LinearLayout index="0" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[22,259][1058,787]" displayed="true">
+                      <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[22,259][1058,687]" displayed="true">
+                        <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" resource-id="com.zdv.secretcloset:id/relativeLayout3" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[22,371][295,575]" displayed="true">
+                          <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[63,371][267,575]" displayed="true">
+                            <android.widget.ImageView index="0" package="com.zdv.secretcloset" class="android.widget.ImageView" text="" resource-id="com.zdv.secretcloset:id/ivSellerAvatar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[77,385][253,561]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout index="1" package="com.zdv.secretcloset" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,259][1058,687]" displayed="true">
+                          <android.widget.RelativeLayout index="0" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,273][1017,323]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="id:" resource-id="com.zdv.secretcloset:id/textView20" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,276][333,320]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="293745" resource-id="com.zdv.secretcloset:id/tvItemSellerID" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[900,276][1014,320]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,323][1017,373]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Response rate" resource-id="com.zdv.secretcloset:id/textView22" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,326][509,370]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="0" resource-id="com.zdv.secretcloset:id/tvItemSellerRate" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[995,326][1014,370]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="2" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,373][1017,423]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Response time" resource-id="com.zdv.secretcloset:id/textView23" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,376][518,420]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="0 h. 0 m." resource-id="com.zdv.secretcloset:id/tvItemSellerTime" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[887,376][1014,420]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="3" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,423][1017,473]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Rating" resource-id="com.zdv.secretcloset:id/textView24" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,426][392,470]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="0" resource-id="com.zdv.secretcloset:id/tvItemSellerRating" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[995,426][1014,470]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="4" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,473][1017,523]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Likes" resource-id="com.zdv.secretcloset:id/textView25" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,476][376,520]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="0" resource-id="com.zdv.secretcloset:id/tvItemSellerLikes" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[995,476][1014,520]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="5" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,523][1017,573]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Sells items" resource-id="com.zdv.secretcloset:id/textView26" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,526][460,570]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="1" resource-id="com.zdv.secretcloset:id/tvItemSellerSells" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[995,526][1014,570]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="6" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,573][1017,623]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="City" resource-id="com.zdv.secretcloset:id/textCityTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,576][354,620]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="Athens" resource-id="com.zdv.secretcloset:id/tvItemSellerCity" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[910,576][1014,620]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                          <android.widget.RelativeLayout index="7" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[295,623][1017,673]" displayed="true">
+                            <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="Member" resource-id="com.zdv.secretcloset:id/textMemberTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[298,626][422,670]" displayed="true" />
+                            <android.widget.TextView index="1" package="com.zdv.secretcloset" class="android.widget.TextView" text="28 d. 5 h. " resource-id="com.zdv.secretcloset:id/tvItemSellerMember" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[870,626][1014,670]" displayed="true" />
+                          </android.widget.RelativeLayout>
+                        </android.widget.LinearLayout>
+                      </android.widget.RelativeLayout>
+                      <android.widget.RelativeLayout index="1" package="com.zdv.secretcloset" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[22,687][1058,787]" displayed="true">
+                        <android.widget.TextView index="0" package="com.zdv.secretcloset" class="android.widget.TextView" text="More items by Seller:" resource-id="com.zdv.secretcloset:id/textView51" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[306,709][773,776]" displayed="true" />
+                      </android.widget.RelativeLayout>
+                    </android.widget.LinearLayout>
+                  </android.widget.RelativeLayout>
+                </android.widget.ListView>
+              </android.widget.RelativeLayout>
+            </android.support.v4.widget.DrawerLayout>
+          </android.widget.FrameLayout>
+        </android.widget.LinearLayout>
+      </android.widget.FrameLayout>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>
+org.openqa.selenium.NoSuchElementException: No elements with locator 'By.xpath: /android.widget.TextView[contains (text(), 'anetta_stev')]' were found in DISPLAYED state: Expected condition failed:  (tried for 15 second(s) with 300 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'WIN-P2JVAVQ4HBR', ip: '172.27.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\artem\IdeaProjects..., appium:appPackage: com.zdv.secretcloset, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\artem\IdeaProjects..., automationName: UiAutomator2, deviceName: pixel_5, platformName: android, platformVersion: 10, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 2970e5a5-96b0-4b0e-b5ec-b4bdfd5a305b
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'WIN-P2JVAVQ4HBR', ip: '172.27.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: driver.version: unknown
+	at aquality.selenium.core.elements.ElementFinder.handleTimeoutException(ElementFinder.java:95) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.ElementFinder.findElements(ElementFinder.java:46) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElementFinder.findElement(IElementFinder.java:54) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.ElementCacheHandler.getElement(ElementCacheHandler.java:65) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElementCacheHandler.getElement(IElementCacheHandler.java:65) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.getElement(Element.java:176) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.interfaces.IElement.getElement(IElement.java:44) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.lambda$getText$1(Element.java:204) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.utilities.ActionRetrier.doWithRetry(ActionRetrier.java:46) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.utilities.ElementActionRetrier.doWithRetry(ElementActionRetrier.java:35) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.doWithRetry(Element.java:264) ~[aquality-selenium-core-2.0.2.jar:?]
+	at aquality.selenium.core.elements.Element.getText(Element.java:204) ~[aquality-selenium-core-2.0.2.jar:?]
+	at screens.SellerScreen.getSellerName(SellerScreen.java:21) ~[test-classes/:?]
+	at tests.AndroidTest.testApp(AndroidTest.java:69) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.5.jar:7.5]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_302]
+	at org.testng.TestRunner.privateRun(TestRunner.java:808) [testng-7.5.jar:7.5]
+	at org.testng.TestRunner.run(TestRunner.java:603) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuites(TestNG.java:1092) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.run(TestNG.java:1060) [testng-7.5.jar:7.5]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2022-06-01 17:58:38 INFO  - Closing application
+2022-06-01 18:07:07 INFO  - Setting application driver using the server on 'http://0.0.0.0:4723/'
+2022-06-01 18:07:07 DEBUG - Using Log4J2 as the default logging framework
+2022-06-01 18:07:07 DEBUG - -Dio.netty.leakDetection.level: simple
+2022-06-01 18:07:07 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-01 18:07:07 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
+2022-06-01 18:07:07 DEBUG - -Dio.netty.noUnsafe: false
+2022-06-01 18:07:07 DEBUG - Java version: 8
+2022-06-01 18:07:07 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2022-06-01 18:07:07 DEBUG - sun.misc.Unsafe.copyMemory: available
+2022-06-01 18:07:07 DEBUG - java.nio.Buffer.address: available
+2022-06-01 18:07:07 DEBUG - direct buffer constructor: available
+2022-06-01 18:07:07 DEBUG - java.nio.Bits.unaligned: available, true
+2022-06-01 18:07:07 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-01 18:07:07 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-01 18:07:07 DEBUG - sun.misc.Unsafe: available
+2022-06-01 18:07:07 DEBUG - -Dio.netty.tmpdir: C:\Users\artem\AppData\Local\Temp (java.io.tmpdir)
+2022-06-01 18:07:07 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-01 18:07:07 DEBUG - Platform: Windows
+2022-06-01 18:07:07 DEBUG - -Dio.netty.maxDirectMemory: 1888485376 bytes
+2022-06-01 18:07:07 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-01 18:07:07 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2022-06-01 18:07:07 DEBUG - -Dio.netty.noPreferDirect: false
+2022-06-01 18:07:07 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-01 18:07:07 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-01 18:07:07 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-01 18:07:08 DEBUG - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-06-01 18:07:08 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-01 18:07:08 DEBUG - -Dio.netty.eventLoopThreads: 8
+2022-06-01 18:07:08 DEBUG - -Dio.netty.noKeySetOptimization: false
+2022-06-01 18:07:08 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.maxOrder: 11
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-01 18:07:08 DEBUG - -Dio.netty.allocator.type: pooled
+2022-06-01 18:07:08 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-01 18:07:08 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-01 18:07:08 DEBUG - -Dio.netty.processId: 16816 (auto-detected)
+2022-06-01 18:07:08 DEBUG - -Djava.net.preferIPv4Stack: false
+2022-06-01 18:07:08 DEBUG - -Djava.net.preferIPv6Addresses: false
+2022-06-01 18:07:09 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-01 18:07:09 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-01 18:07:10 DEBUG - -Dio.netty.machineId: 28:c6:3f:ff:fe:c9:87:c2 (auto-detected)
+2022-06-01 18:07:10 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2022-06-01 18:07:10 DEBUG - -Dio.netty.buffer.checkBounds: true
+2022-06-01 18:07:10 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@395e39e6
+2022-06-01 18:07:10 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-01 18:07:10 DEBUG - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-01 18:07:10 DEBUG - -Dio.netty.recycler.linkCapacity: 16
+2022-06-01 18:07:10 DEBUG - -Dio.netty.recycler.ratio: 8
+2022-06-01 18:07:10 DEBUG - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-06-01 18:07:47 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-01 18:07:48 INFO  - Application on platform 'ANDROID' is ready...
+2022-06-01 18:07:48 INFO  - Step 1: Click on city label
+2022-06-01 18:07:48 INFO  - Label 'City Label' :: Clicking
+2022-06-01 18:07:50 INFO  - Step 2: Click OK button on alert
+2022-06-01 18:07:50 INFO  - Button 'OK' :: Clicking
+2022-06-01 18:07:51 INFO  - Step 3: Type 'Athens' in search field
+2022-06-01 18:07:51 INFO  - Text Field 'Search field' :: Clearing
+2022-06-01 18:07:51 INFO  - Text Field 'Search field' :: Typing 'Athens'
+2022-06-01 18:07:55 INFO  - Step 4: Click on search result 'Athens'
+2022-06-01 18:07:55 INFO  - Label 'Name of city' :: Clicking
+2022-06-01 18:07:56 INFO  - Step 5: Check 'Athens' is selected as region
+2022-06-01 18:07:56 INFO  - Label 'City Label' :: Getting text from element
+2022-06-01 18:07:59 INFO  - Label 'City Label' :: Element's text: [Athens]
+2022-06-01 18:07:59 INFO  - Label 'Origin price' :: Getting text from element
+2022-06-01 18:07:59 INFO  - Label 'Origin price' :: Element's text: [250 EUR]
+2022-06-01 18:07:59 INFO  - Label 'Discount' :: Getting text from element
+2022-06-01 18:07:59 INFO  - Label 'Discount' :: Element's text: [-20%]
+2022-06-01 18:07:59 INFO  - Label 'New price' :: Getting text from element
+2022-06-01 18:07:59 INFO  - Label 'New price' :: Element's text: [200 EUR]
+2022-06-01 18:07:59 INFO  - Step 6: Select first item with discount
+2022-06-01 18:07:59 INFO  - Label 'First product with discount' :: Clicking
+2022-06-01 18:07:59 INFO  - Step 7: Check that selected item is displaying
+2022-06-01 18:07:59 INFO  - Label 'Selected Item' :: Getting attribute 'displayed'
+2022-06-01 18:08:01 INFO  - Label 'Selected Item' :: Value of attribute 'displayed': [true]
+2022-06-01 18:08:01 INFO  - Step 8: Check that old price, discount and price with discount are correct
+2022-06-01 18:08:01 INFO  - Label 'Price before discount' :: Getting text from element
+2022-06-01 18:08:01 INFO  - Label 'Price before discount' :: Element's text: [250 EUR]
+2022-06-01 18:08:01 INFO  - Label 'Discount' :: Getting text from element
+2022-06-01 18:08:01 INFO  - Label 'Discount' :: Element's text: [-20%]
+2022-06-01 18:08:01 INFO  - Label 'Price after discount' :: Getting text from element
+2022-06-01 18:08:01 INFO  - Label 'Price after discount' :: Element's text: [200 EUR]
+2022-06-01 18:08:01 INFO  - Step 9: Click on seller
+2022-06-01 18:08:01 INFO  - Label 'Seller's name' :: Getting text from element
+2022-06-01 18:08:02 INFO  - Label 'Seller's name' :: Element's text: [anetta_stev]
+2022-06-01 18:08:02 INFO  - Label 'Seller's city' :: Getting text from element
+2022-06-01 18:08:02 INFO  - Label 'Seller's city' :: Element's text: [Athens]
+2022-06-01 18:08:02 INFO  - Label 'Seller's info' :: Clicking
+2022-06-01 18:08:02 INFO  - Step 10: Check that seller information is correct (name, city)
+2022-06-01 18:08:28 INFO  - Label 'Seller's name' :: Getting text from element
+2022-06-01 18:08:33 INFO  - Closing application
