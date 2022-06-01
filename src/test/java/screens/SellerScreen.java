@@ -13,6 +13,7 @@ public class SellerScreen extends BaseScreen{
         super(By.id(CONSTRUCTOR), "Seller screen");
     }
 
+
     public String getSellerCity(){
         return sellerCity.getText();
     }
