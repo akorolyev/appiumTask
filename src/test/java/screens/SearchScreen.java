@@ -10,9 +10,10 @@ public class SearchScreen extends BaseScreen {
 
     private final ITextBox searchField = AqualityServices.getElementFactory().getTextBox(By.id("com.zdv.secretcloset:id/etSearchTest"), "Search field");
     private final ILabel cityName = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvCityItemName"), "Name of city");
-    private final static String CONSTRUCTOR = "com.zdv.secretcloset:id/tvTitle";
+    private final static String SearchBox = "com.zdv.secretcloset:id/tvTitle";
+
     public SearchScreen() {
-        super(By.id(CONSTRUCTOR), "Search screen");
+        super(By.id(SearchBox), "Search screen");
     }
 
     public void typeInSearchField(String nameOfCity){

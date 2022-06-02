@@ -12,10 +12,10 @@ public class ItemScreen extends BaseScreen{
     private final ILabel seller = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/rlSellerInfo"), "Seller's info");
     private final ILabel sellerName = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerName"), "Seller's name");
     private final ILabel sellerCity = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerCity"), "Seller's city");
-    private final static String CONSTRUCTOR = "com.zdv.secretcloset:id/tvItemBrand";
+    private final static String ItemBrand = "com.zdv.secretcloset:id/tvItemBrand";
 
     public ItemScreen() {
-        super(By.id(CONSTRUCTOR), "Item screen");
+        super(By.id(ItemBrand), "Item screen");
     }
 
     public String isDisplayedItem(){

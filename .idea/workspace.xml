@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddaf0b65-066a-4423-bfa2-a7defe05bc40" name="Default Changelist" comment="empty commit">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/modules/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modules/Seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screens/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screens/Alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screens/AndroidAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screens/AndroidAlert.java" afterDir="false" />
+    <list default="true" id="ddaf0b65-066a-4423-bfa2-a7defe05bc40" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/src/test/java/screens/CityScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screens/CityScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/screens/ItemScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screens/ItemScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/screens/SearchScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screens/SearchScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/screens/SellerScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screens/SellerScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AndroidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,21 +59,9 @@
       <recent name="C:\Users\artem\IdeaProjects\Appium\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AndroidTest.testApp">
+  <component name="RunManager" selected="TestNG.SecretClosetTest.testApp">
     <configuration name="AppiumTest" type="Application" factoryName="Application">
       <module name="Appium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AndroidTest.testApp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.AndroidTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,14 +90,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecretClosetTest.testApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tests.SecretClosetTest" />
+      <option name="METHOD_NAME" value="testApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppiumTest" />
       <item itemvalue="TestNG.AppiumTest" />
-      <item itemvalue="TestNG.AndroidTest.testApp" />
+      <item itemvalue="TestNG.SecretClosetTest.testApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AndroidTest.testApp" />
+        <item itemvalue="TestNG.SecretClosetTest.testApp" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654102100097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <created>1654210151348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654210151348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="empty commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="empty commit" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

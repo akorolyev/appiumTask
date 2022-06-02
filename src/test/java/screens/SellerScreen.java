@@ -7,10 +7,10 @@ import org.openqa.selenium.By;
 public class SellerScreen extends BaseScreen{
     private final ILabel sellerCity = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerCity"), "Seller's city");
     private final ILabel sellerName = AqualityServices.getElementFactory().getLabel(By.xpath("com.zdv.secretcloset:id/toolbar"), "Seller's name");
-    private final static String CONSTRUCTOR = "com.zdv.secretcloset:id/lvSellerItems";
+    private final static String SellerScreen = "com.zdv.secretcloset:id/lvSellerItems";
 
     public SellerScreen() {
-        super(By.id(CONSTRUCTOR), "Seller screen");
+        super(By.id(SellerScreen), "Seller screen");
     }
 
     public String getSellerCity(){

@@ -12,10 +12,10 @@ public class CityScreen extends BaseScreen {
     private final ILabel originPrice = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvSumm"), "Origin price");
     private final ILabel newPrice = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvPrice"), "New price");
     private final ILabel discount = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvDiscount"), "Discount");
-    private final static String CONSTRUCTOR = "com.zdv.secretcloset:id/tvToolbarCity";
+    private final static String ToolBar = "com.zdv.secretcloset:id/tvToolbarCity";
 
     public CityScreen() {
-        super(By.id(CONSTRUCTOR), "Start screen");
+        super(By.id(ToolBar), "City screen");
     }
 
     public SearchScreen clickOnCityLabel (){

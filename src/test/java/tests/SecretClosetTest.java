@@ -1,6 +1,5 @@
 package tests;
 
-import aquality.appium.mobile.application.AqualityServices;
 import modules.Item;
 import modules.Seller;
 import org.testng.Assert;
@@ -8,15 +7,14 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import screens.*;
 
-import java.time.Duration;
 
 
-public class AndroidTest extends BaseTest {
+
+public class SecretClosetTest extends BaseTest {
 
 @Test
 public void testApp(){
     SoftAssert softAssert = new SoftAssert();
-    AqualityServices.getApplication().getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
     logStep("Click on city label");
     CityScreen cityScreen = new CityScreen();
@@ -34,10 +32,7 @@ public void testApp(){
 
     logStep("Check 'Athens' is selected as region");
     Assert.assertEquals(cityScreen.returnNameOfCity(), "Athens", "Incorrect city was selected");
-    Item item = new Item();
-    item.setOriginPrice(cityScreen.getOriginPrice());
-    item.setDiscount(cityScreen.getDiscount());
-    item.setNewPrice(cityScreen.getNewPrice());
+    Item item = new Item(cityScreen.getDiscount(), cityScreen.getOriginPrice(), cityScreen.getNewPrice());
 
     logStep("Select first item with discount");
     ItemScreen itemScreen = cityScreen.selectFirstProductWithDiscount();

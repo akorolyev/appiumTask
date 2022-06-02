@@ -5,6 +5,12 @@ public class Item {
     private String originPrice;
     private String newPrice;
 
+    public Item(String discount, String originPrice, String newPrice) {
+        this.discount = discount;
+        this.originPrice = originPrice;
+        this.newPrice = newPrice;
+    }
+
     public String getDiscount() {
         return discount;
     }
