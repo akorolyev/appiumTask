@@ -1,12 +1,9 @@
 package screens;
 
 import aquality.appium.mobile.application.AqualityServices;
-import aquality.appium.mobile.elements.ElementType;
-import aquality.appium.mobile.elements.interfaces.IElement;
 import aquality.appium.mobile.elements.interfaces.ILabel;
 import org.openqa.selenium.By;
 
-import java.util.List;
 
 public class CityScreen extends BaseScreen {
 
@@ -16,7 +13,6 @@ public class CityScreen extends BaseScreen {
     private final ILabel newPrice = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvPrice"), "New price");
     private final ILabel discount = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvDiscount"), "Discount");
     private final static String CONSTRUCTOR = "com.zdv.secretcloset:id/tvToolbarCity";
-
 
     public CityScreen() {
         super(By.id(CONSTRUCTOR), "Start screen");
@@ -35,14 +31,12 @@ public class CityScreen extends BaseScreen {
         productsWithDiscount.click();
         return new ItemScreen();
     }
-
     public String getNewPrice(){
         return newPrice.getText();
     }
     public String getOriginPrice(){
         return originPrice.getText();
     }
-
     public String getDiscount(){
         return discount.getText();
     }

@@ -6,11 +6,7 @@ import aquality.appium.mobile.screens.Screen;
 import org.openqa.selenium.By;
 
 public abstract class Alert extends Screen {
-    //Alert frame xpath
-    //"/hierarchy/android.widget.FrameLayout"
-    //ok button
-    //"android:id/button1"
-    //
+
     private final ILabel messageLbl;
     private final IButton okBtn;
 

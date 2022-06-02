@@ -1,16 +1,8 @@
 package tests;
 
 import aquality.appium.mobile.application.AqualityServices;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.service.local.AppiumServiceBuilder;
-import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import modules.Item;
 import modules.Seller;
-import org.apache.commons.lang3.builder.ToStringExclude;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -60,7 +52,7 @@ public void testApp(){
     softAssert.assertAll();
 
     logStep("Click on seller");
-    Seller seller = new Seller();
+    Seller seller = new Seller(itemScreen.getSellerName(), itemScreen.getSellerCity());
     seller.setName(itemScreen.getSellerName());
     seller.setCity(itemScreen.getSellerCity());
     SellerScreen sellerScreen = itemScreen.clickSeller();
@@ -68,15 +60,6 @@ public void testApp(){
     logStep("Check that seller information is correct (name, city)");
     Assert.assertEquals(sellerScreen.getSellerName(), seller.getName(), "Name doesn't match");
     Assert.assertEquals(sellerScreen.getSellerCity(), seller.getCity(), "City doesn't match");
-
-
-
-
-
-
-
-
-    System.out.println("ss");
 
     }
 

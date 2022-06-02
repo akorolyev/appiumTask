@@ -5,9 +5,6 @@ public class Seller {
     String name;
     String city;
 
-    public Seller(){
-    }
-
     public Seller(String name, String city){
         this.name = name;
         this.city = city;

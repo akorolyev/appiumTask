@@ -14,7 +14,6 @@ public class ItemScreen extends BaseScreen{
     private final ILabel sellerCity = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerCity"), "Seller's city");
     private final static String CONSTRUCTOR = "com.zdv.secretcloset:id/tvItemBrand";
 
-
     public ItemScreen() {
         super(By.id(CONSTRUCTOR), "Item screen");
     }
