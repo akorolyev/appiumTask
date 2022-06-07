@@ -7,13 +7,13 @@ import org.openqa.selenium.By;
 
 public abstract class Alert extends Screen {
 
-    private final ILabel messageLbl;
-    private final IButton okBtn;
+    private final ILabel MESSAGE_LABEL;
+    private final IButton OK_BUTTON;
 
     protected Alert(By locator) {
         super(locator, "Alert");
-        messageLbl = getElementFactory().getLabel(getMessageLblLoc(), "Message");
-        okBtn = getElementFactory().getButton(getOkBtnLoc(), "OK");
+        MESSAGE_LABEL = getElementFactory().getLabel(getMessageLblLoc(), "Message");
+        OK_BUTTON = getElementFactory().getButton(getOkBtnLoc(), "OK");
     }
 
     protected abstract By getMessageLblLoc();
@@ -21,10 +21,10 @@ public abstract class Alert extends Screen {
     protected abstract By getOkBtnLoc();
 
     public String getMessage() {
-        return messageLbl.getText();
+        return MESSAGE_LABEL.getText();
     }
 
     public void tapOk() {
-        okBtn.click();
+        OK_BUTTON.click();
     }
 }

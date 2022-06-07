@@ -5,42 +5,40 @@ import aquality.appium.mobile.elements.interfaces.ILabel;
 import org.openqa.selenium.By;
 
 public class ItemScreen extends BaseScreen{
-    private final ILabel selectedItem = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemBrand"), "Selected Item");
-    private final ILabel discount = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemDiscount"), "Discount");
-    private final ILabel originalPrice = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemOriginalPrice"), "Price before discount");
-    private final ILabel newPrice = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemPrice"), "Price after discount");
-    private final ILabel seller = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/rlSellerInfo"), "Seller's info");
-    private final ILabel sellerName = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerName"), "Seller's name");
-    private final ILabel sellerCity = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerCity"), "Seller's city");
-    private final static String ItemBrand = "com.zdv.secretcloset:id/tvItemBrand";
+    private final ILabel SELECTED_ITEM = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemBrand"), "Selected Item");
+    private final ILabel DISCOUNT = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemDiscount"), "Discount");
+    private final ILabel ORIGINAL_PRICE = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemOriginalPrice"), "Price before discount");
+    private final ILabel NEW_PRICE = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemPrice"), "Price after discount");
+    private final ILabel SELLER = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/rlSellerInfo"), "Seller's info");
+    private final ILabel SELLER_NAME = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerName"), "Seller's name");
+    private final ILabel SELLER_CITY = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvItemSellerCity"), "Seller's city");
+    private final static String ITEM_BRAND = "com.zdv.secretcloset:id/tvItemBrand";
 
     public ItemScreen() {
-        super(By.id(ItemBrand), "Item screen");
+        super(By.id(ITEM_BRAND), "Item screen");
     }
 
     public String isDisplayedItem(){
-        return selectedItem.getAttribute("displayed");
+        return SELECTED_ITEM.getAttribute("displayed");
     }
 
     public SellerScreen clickSeller(){
-         seller.click();
+        SELLER.click();
          return new SellerScreen();
     }
     public String getSellerName(){
-        return sellerName.getText();
+        return SELLER_NAME.getText();
     }
     public String getSellerCity(){
-        return sellerCity.getText();
+        return SELLER_CITY.getText();
     }
     public String getOriginPrice(){
-        return originalPrice.getText();
+        return ORIGINAL_PRICE.getText();
     }
     public String getNewPrice(){
-        return newPrice.getText();
+        return NEW_PRICE.getText();
     }
     public String getDiscount(){
-        return discount.getText();
+        return DISCOUNT.getText();
     }
-
-
 }

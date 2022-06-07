@@ -3,12 +3,12 @@ package screens;
 import org.openqa.selenium.By;
 
 public abstract class BaseScreen {
-    private final By locator;
+    private final By LOCATOR;
 
-    private final String name;
+    private final String NAME;
 
     protected BaseScreen(By locator, String name) {
-        this.locator = locator;
-        this.name = name;
+        this.LOCATOR = locator;
+        this.NAME = name;
     }
 }

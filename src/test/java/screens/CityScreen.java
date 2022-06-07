@@ -4,41 +4,40 @@ import aquality.appium.mobile.application.AqualityServices;
 import aquality.appium.mobile.elements.interfaces.ILabel;
 import org.openqa.selenium.By;
 
-
 public class CityScreen extends BaseScreen {
 
-    private final ILabel cityLabel= AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvToolbarCity"), "City Label");
-    private final ILabel productsWithDiscount = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/ivProductPic"), "First product with discount");
-    private final ILabel originPrice = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvSumm"), "Origin price");
-    private final ILabel newPrice = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvPrice"), "New price");
-    private final ILabel discount = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvDiscount"), "Discount");
-    private final static String ToolBar = "com.zdv.secretcloset:id/tvToolbarCity";
+    private final String PRODUCTS_WITH_DISCOUNT = "*/android.widget.RelativeLayout['%s']";
+    private final ILabel CITY_LABEL= AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvToolbarCity"), "City Label");
+    private final ILabel ORIGIN_PRICE = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvSumm"), "Origin price");
+    private final ILabel NEW_PRICE = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvPrice"), "New price");
+    private final ILabel DISCOUNT = AqualityServices.getElementFactory().getLabel(By.id("com.zdv.secretcloset:id/tvDiscount"), "Discount");
+    private final static String TOOL_BAR = "com.zdv.secretcloset:id/tvToolbarCity";
 
     public CityScreen() {
-        super(By.id(ToolBar), "City screen");
+        super(By.id(TOOL_BAR), "City screen");
     }
 
     public SearchScreen clickOnCityLabel (){
-        cityLabel.click();
+        CITY_LABEL.click();
         return new SearchScreen();
     }
 
     public String returnNameOfCity(){
-        return cityLabel.getText();
+        return CITY_LABEL.getText();
     }
 
-    public ItemScreen selectFirstProductWithDiscount(){
-        productsWithDiscount.click();
+    public ItemScreen selectFirstProductWithDiscount(String numberOfProduct){
+        AqualityServices.getElementFactory().getLabel(By.xpath(String.format(PRODUCTS_WITH_DISCOUNT, numberOfProduct)),
+                "First product with discount").click();
         return new ItemScreen();
     }
     public String getNewPrice(){
-        return newPrice.getText();
+        return NEW_PRICE.getText();
     }
     public String getOriginPrice(){
-        return originPrice.getText();
+        return ORIGIN_PRICE.getText();
     }
     public String getDiscount(){
-        return discount.getText();
+        return DISCOUNT.getText();
     }
-
 }
